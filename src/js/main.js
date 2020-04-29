@@ -7,6 +7,7 @@ $(document).ready(function () {
   Even.mobileNavbar();
   Even.toc();
   Even.fancybox();
+  Even.addAppleButton();
 });
 
 Even.responsiveTable();
@@ -15,7 +16,7 @@ Even.sequence();
 
 if (window.hljs) {
   hljs.initHighlighting();
-  Even.highlight();
+  // Even.highlight();
 } else {
   Even.chroma();
 }

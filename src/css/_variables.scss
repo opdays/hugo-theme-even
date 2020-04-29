@@ -5,7 +5,7 @@
 // ========== Theme Color ========== //
 // Config here to change theme color
 // Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
-$theme-color-config: 'Default';
+$theme-color-config: 'Mint Green';
 
 // Default theme color map
 $theme-color-map: (
@@ -187,7 +187,7 @@ $content-table-border-color: darken($deputy-color, 3%) !default;
 
 // ========== Code ========== //
 // Color of the code.
-$code-color: #c7254e !default;
+$code-color: #ece6e8 !default;
 
 // Font size of code.
 $code-font-size: 13px !default;
@@ -255,7 +255,7 @@ $code-type-list: (
 ) !default;
 
 // Color of the code background.
-$code-background: $deputy-color !default;
+$code-background: #282a36;
 
 
 // ========== Pagination ========== //
